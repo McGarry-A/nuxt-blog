@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <figure class="TrendingPost">
     <div class="TrendingPost-Left">

@@ -1,11 +1,8 @@
 <template>
-  <h1>Inital</h1>
+  <main>
+    <hero-section />
+    <trending-posts />
+  </main>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage',
-})
-</script>
+<style></style>

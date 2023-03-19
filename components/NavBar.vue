@@ -9,7 +9,7 @@
           <NuxtLink class="Navbar-ListItemLink" to="/about">Our Story</NuxtLink>
         </li>
         <li class="Navbar-ListItem">
-          <NuxtLink class="Navbar-ListItemLink" to="/create-a-post"
+          <NuxtLink class="Navbar-ListItemLink" to="/publish"
             >Create a Post</NuxtLink
           >
         </li>
@@ -28,12 +28,14 @@
 <style lang="scss" scoped>
 .Navbar {
   padding: 1.4rem 0;
+
   &-List {
     display: flex;
     list-style-type: none;
     gap: 2rem;
     justify-content: flex-end;
-    align-items: center;
+    align-items: baseline;
+
     &Item {
       &Link {
         all: initial;

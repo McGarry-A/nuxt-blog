@@ -10,5 +10,6 @@
     display: block;
     max-width: 1020px;
     margin: 0 auto;
+    width: 100%;
 }
 </style>

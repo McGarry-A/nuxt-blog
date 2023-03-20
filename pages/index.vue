@@ -2,6 +2,7 @@
   <main>
     <hero-section />
     <trending-posts />
+    <categories-section />
   </main>
 </template>
 

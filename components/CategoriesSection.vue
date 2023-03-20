@@ -33,6 +33,7 @@ import { categories } from "../data.js"
 <style scoped lang="scss">
 .CategoriesSection {
     position: sticky;
+    top: 0px;
 
     &-Categories {
         display: flex;
@@ -41,7 +42,7 @@ import { categories } from "../data.js"
         gap: .5rem;
         flex-wrap: wrap;
         max-width: 400px;
-        padding: 2rem 0;
+        padding: 4rem 0 0;
 
         &Title {
             font-size: 14px;
@@ -52,6 +53,9 @@ import { categories } from "../data.js"
 
     &-Border {
         border: 1px solid #F5F5F5;
+        margin-top: 2rem;
+        width: 90%;
+        margin-left: auto;
     }
 
     &-Links {

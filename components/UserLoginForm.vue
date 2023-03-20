@@ -31,9 +31,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-const handleSubmitForm = () => {
-    console.log(isRegister.value)
-}
+const handleSubmitForm = () => { return null }
 
 const toggleLogin = () => {
     isRegister.value = !isRegister.value
@@ -44,7 +42,7 @@ const password = ref<string>('')
 const confPassword = ref<string>('')
 </script>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
 .UserLoginForm {
     display: flex;
     flex-direction: column;
